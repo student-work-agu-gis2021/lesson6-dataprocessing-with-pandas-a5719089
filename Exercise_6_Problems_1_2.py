@@ -125,6 +125,7 @@ print('Average temperature (F) for the Summer of 69:', round(avg_temp_1969, 2))
 monthly_data = None
 
 # YOUR CODE HERE 9
+monthly_data=np.mean(data.iloc[:,8])
 
 
 #CAUTION!!! DON'T EDIT THIS PART START
