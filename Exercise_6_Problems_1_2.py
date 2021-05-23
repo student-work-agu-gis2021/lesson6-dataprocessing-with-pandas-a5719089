@@ -30,7 +30,7 @@ data=pd.read_csv(fp,delim_whitespace=True,skiprows=[1],na_values=[-9999])
 
 tavg_nodata_count = None
 #YOUR CODE HERE 2
-
+tavg_nodata_count=data.iloc[:,6].isnull().sum()
 
 #CAUTION!!! DON'T EDIT THIS PART START
 # Print out the solution:
